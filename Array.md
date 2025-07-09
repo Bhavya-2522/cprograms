@@ -1,4 +1,4 @@
-## write a program to count sum of elements in an array.
+## 1.write a program to count sum of elements in an array.
 ```c
 #include <stdio.h>
 int main()
@@ -24,3 +24,4 @@ int main()
     printf("%d\n",sum);
 }
 ```
+
