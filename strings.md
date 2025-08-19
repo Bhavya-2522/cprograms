@@ -20,3 +20,23 @@ int main()
     printf("words=%d\n",word+1);
 }
 ```
+## 2. Write a c program to reverse a string.
+```
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[50],temp;
+    printf("enter a string:");
+    fgets(a,sizeof(a),stdin);
+    a[strcspn(a,"\n")]='\0';
+    int l=strlen(a);
+    for(int i=0;i<l/2;i++)
+    {
+        temp=a[i];
+        a[i]=a[l-1-i];
+        a[l-1-i]=temp;
+    }
+    printf("reversed string=%s",a);
+}
+```
