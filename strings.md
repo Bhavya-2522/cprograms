@@ -1,5 +1,5 @@
 ## 1. Write a c program to count words in a string.
-```
+```c
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -21,7 +21,7 @@ int main()
 }
 ```
 ## 2. Write a c program to reverse a string.
-```
+```c
 #include<stdio.h>
 #include<string.h>
 int main()
